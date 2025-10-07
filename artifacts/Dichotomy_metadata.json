@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256[]",
+						"name": "arr",
+						"type": "int256[]"
+					},
+					{
+						"internalType": "int256",
+						"name": "target",
+						"type": "int256"
+					}
+				],
+				"name": "search",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-study-2/dichotomy.sol": "Dichotomy"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-study-2/dichotomy.sol": {
+			"keccak256": "0x101593e3e26fec31254a43c269fe32f5761c64fcfdc9efa358184dcb18788912",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4dcf0ac1f8475931388a03defa5f2c37fc4e0c0f54d7c6ceda47e1e9d33afcf1",
+				"dweb:/ipfs/QmRjnS7u1hoJuDR4e9p5pq3JhZfVGLrFdHmDHGpUgMCPDF"
+			]
+		}
+	},
+	"version": 1
+}
